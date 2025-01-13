@@ -9,7 +9,7 @@ namespace Catalog.API.Products.DeleteProduct
         public DeleteProductCommandValidator()
         {
 
-            RuleFor(x => x.Id).NotEmpty().WithMessage("Product Id is required");
+            RuleFor(x => x.Id).NotEmpty().WithMessage("Product Id is required ");
         }
     }
     internal class DeleteProductCommandHandler
